@@ -1,0 +1,46 @@
+fruits = ["banana", "apple", "orange"]
+print(fruits)
+print(fruits[0], fruits[1])
+print(fruits[:2])
+print(fruits[::2])
+print(fruits[::-1])
+
+for fruit in fruits:
+    print(fruit)
+
+print(len(fruits))
+print("apple" in fruits)
+fruits[0] = "pineapple"
+print(fruits)
+fruits.append("banana")
+print(fruits)
+fruits.remove("banana")
+print(fruits)
+fruits.insert(1, "coconut")
+print(fruits)
+fruits.sort()
+print(fruits)
+fruits.reverse()
+print(fruits)
+# fruits.clear()
+print(fruits.index("apple"))
+print(fruits.count("apple"))
+
+names = {"Vince", "Felix", "Josh", "Nicole"}
+print(names)
+print(len(names))
+names.add("Jay")
+print(names)
+names.remove("Josh")
+print(names)
+names.pop()
+print(names)
+names.clear()
+print(names)
+
+animals = ("cat",  "dog", "pig", "eagle")
+print(animals)
+print(len(animals))
+print("dog" in animals)
+print(animals.index("cat"))
+print(animals.count("pig"))

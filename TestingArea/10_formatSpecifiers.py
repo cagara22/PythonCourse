@@ -1,0 +1,28 @@
+price1 = 3.14567
+price2 = -999.65
+price3 = 1200.3454
+
+print(f"{price1:.2f}")
+print(f"{price2:.2f}")
+print(f"{price3:.2f}")
+print(f"{price1:010}")
+print(f"{price2:10}")
+print(f"{price3:10}")
+print(f"{price1:<10}")
+print(f"{price2:<10}")
+print(f"{price3:<10}")
+print(f"{price1:>10}")
+print(f"{price2:>10}")
+print(f"{price3:>10}")
+print(f"{price1:^10}")
+print(f"{price2:^10}")
+print(f"{price3:^10}")
+print(f"{price1:+}")
+print(f"{price2:+}")
+print(f"{price3:+}")
+print(f"{price1:,}")
+print(f"{price2:,}")
+print(f"{price3:,}")
+print(f"{price1:010}")
+print(f"{price2:.2f}")
+print(f"{price3:,.2f}")
